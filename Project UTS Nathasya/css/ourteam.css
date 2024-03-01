@@ -1,0 +1,77 @@
+* {padding: 0; margin: 0; }
+
+
+
+menu {height: 80px; background: white; justify-content: center;}
+
+menu nav {width: 1000px; height: 40px; margin: auto; padding: 20px;}
+
+nav ul li {float: left; list-style: none; font-family: monospace; }
+	
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 15px 15px; color: black; }
+
+nav ul li ul {display: none;}
+menu ul li:hover > ul {display: block;z-index: 1; }
+menu ul li ul{ position: absolute;}
+menu ul li ul .shop li {float: none; position: relative; padding-right: 95px; background-color: white; right: 160px; }
+
+menu ul li ul .blog li {float: none; position: relative; padding-right: 115px; background-color: white; right: 160px; }
+
+menu ul li ul { position: absolute;}
+
+nav {position: relative; line-height: 40px; width: 900px; }
+
+nav ul .superb li {font-size: 40px; margin-right: 100px;}
+
+nav ul .lainya li {font-size: 20px;}
+
+nav ul li ul li {float: none;
+	position: relative; background: white;
+}
+
+nav ul .lainya li:hover {background: #F6F6F6; }
+
+nav ul .lainya img {width: 20px; height: auto; padding: 5px; }
+
+article {background: white; font-family: arial; }
+article .meet {background: #F6F6F6; padding: 50px 0 50px 0; display: flex; justify-content: center; }
+article .meet h1 {font-size: 48px; width: 250px; }
+article .meet .garis {margin-right: 20px; border-left: solid black 4px;}
+article .meet .tulis p {width: 340px; padding: 10px}
+article .meet .tulis {width: 720px; margin-left: 20px; display: flex;}
+article .atas {background: white; padding: 50px 0 50px 0;}
+article .atas p {font-size: 48px; margin-left: 555px;}
+article .atas .poto {display: flex; justify-content: center;}
+article .atas .poto img {padding: 40px; width: 280px; height: auto;}
+article .a {display: flex; justify-content: center;}
+article .bawah {background: white; padding: 10px 0 30px 0;}
+article .bawah p {font-size: 48px; margin-left: 550px;}
+article .bawah .poto {display: flex; justify-content: center;}
+article .bawah .poto img {padding: 40px; width: 280px; height: auto;}
+article .join {width: 900px; margin: auto; background: black; display: flex; padding: 50px; margin-bottom: 50px;}
+article .join h1 {color: white; font-size: 50px; width: 400px; padding: 20px 50px 20px 40px;}
+article .tombol a {padding: 10px; background: white; text-decoration: none; font-size: 16px; color: black;}
+article .tombol {margin: 70px 10px 10px 250px;}
+
+
+
+
+footer {background: black;}
+footer .atas {color: white; display: flex; justify-content: center; padding: 5px;  }
+footer .atas .sosmed {width: 300px; padding: 15px; font-size: 12px;}
+footer .atas .poto img {width: 30px; height: 30px; float: left; clip-path: circle(50%); margin-left:10px; transform: translate(-10px, 0px)}
+footer .atas .poto img:hover {transform: scale(1.2);}
+
+footer .atas .sosmed {width: 300px; font-family: arial; }
+footer .atas .sosmed h2 {border-bottom: solid white 1px; padding: 10px; }
+footer .atas .sosmed .berita {float: left; padding: 10px; width: 300px;}
+footer .atas .sosmed .berita a {text-decoration: none; color: white; }
+footer .atas .sosmed .berita img {width: 40px; height: 40px; float: left; padding-right: 10px;} 
+
+footer .atas .sosmed .tool {position: relative; }
+footer .atas .sosmed .tool .tips {display: inline; padding: 10px;}
+footer .atas .sosmed p {margin-top: 30px;}
+input[type=text] {padding: 10px; font-family: arial;}
+input[type=submit], button[type=button] {padding: 10px; font-family: arial;}
+
+footer .bawah {color: white; text-align: center; font-size: 15px; line-height: 40px; height: 40px; margin-top: 30px;}
